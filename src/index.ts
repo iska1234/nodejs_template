@@ -12,7 +12,7 @@ const port = 5500;
 configDotenv();
 
 const allowedOrigins = [
-  "*",
+  "http://localhost:4200",
 ];
 
 const corsOptions = {
